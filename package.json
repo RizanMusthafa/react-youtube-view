@@ -1,0 +1,29 @@
+{
+  "name": "my-tube",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://rizanmusthafa.github.io/react-youtube-view",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gh-pages": "^1.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5",
+    "youtube-api-search": "0.0.5",
+    "youtube-api-v3-search": "^1.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
