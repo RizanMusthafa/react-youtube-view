@@ -5,7 +5,7 @@ import Header from "./components/header";
 import VideoList from "./components/video-list";
 import VideoDetails from "./components/video-details";
 
-import yts from "youtube-api-v3-search";
+import yts from "./youtube-api-v3-search";
 
 const API_KEY = "AIzaSyAkbXpj3FL_zQdsuCzzW2Ga61glcSID23s";
 
